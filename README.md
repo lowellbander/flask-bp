@@ -9,7 +9,7 @@ git clone git@github.com:lowellbander/flask-bp.git
 cd flask-bp
 
 heroku login
-heroku git:remote -a <app-name>
+heroku create [app-name]
 
 virtualenv venv
 source venv/bin/activate

@@ -1,10 +1,10 @@
-flask-bp
-========
+# flask-bp
 
 Flask Boilerplate
 
-#setup
-````
+## Setup
+
+````bash
 git clone git@github.com:lowellbander/flask-bp.git
 cd flask-bp
 

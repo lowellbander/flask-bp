@@ -1,23 +1,31 @@
-flask-bp
-========
+# Flask Boilerplate
 
 Flask Boilerplate
 
-#setup
-````
+## Setup
+
+````bash
 git clone git@github.com:lowellbander/flask-bp.git
 cd flask-bp
-
-heroku login
-heroku create [app-name]
 
 virtualenv venv
 source venv/bin/activate
 
-# install necessary python files. Then,
-pip freeze > requirements.txt
+pip install -r requirements.txt
+````
 
-git commit -m "first commit"
+### To Run Locally:
+
+````bash
+# Install foreman and then run
+foreman start
+````
+
+### To Run On Heroku:
+
+````bash
+heroku login
+heroku create $APPNAME
 git push heroku master
 heroku open
 ````

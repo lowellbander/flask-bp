@@ -14,8 +14,7 @@ heroku create [app-name]
 virtualenv venv
 source venv/bin/activate
 
-# install necessary python files. Then,
-pip freeze > requirements.txt
+pip install -r requirements.txt
 
 git commit -m "first commit"
 git push heroku master
